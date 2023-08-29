@@ -11,6 +11,10 @@
 		1791505E2A99F9E400457E5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791505D2A99F9E400457E5F /* ContentView.swift */; };
 		179150602A99F9E700457E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1791505F2A99F9E700457E5F /* Assets.xcassets */; };
 		179150632A99F9E700457E5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179150622A99F9E700457E5F /* Preview Assets.xcassets */; };
+		1791506B2A9DCA7000457E5F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791506A2A9DCA7000457E5F /* UserModel.swift */; };
+		1791506E2A9DCA9B00457E5F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791506D2A9DCA9B00457E5F /* WebService.swift */; };
+		179150712A9DD18C00457E5F /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179150702A9DD18C00457E5F /* UserViewModel.swift */; };
+		179150742A9DD27B00457E5F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179150732A9DD27B00457E5F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		1791505D2A99F9E400457E5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1791505F2A99F9E700457E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		179150622A99F9E700457E5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1791506A2A9DCA7000457E5F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1791506D2A9DCA9B00457E5F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		179150702A9DD18C00457E5F /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		179150732A9DD27B00457E5F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		1791505A2A99F9E400457E5F /* NetworkInterchangable */ = {
 			isa = PBXGroup;
 			children = (
+				179150722A9DD26D00457E5F /* Constants */,
+				1791506F2A9DCAB500457E5F /* ViewModel */,
+				1791506C2A9DCA8C00457E5F /* Service */,
+				179150692A9DCA4B00457E5F /* Model */,
 				1791505B2A99F9E400457E5F /* NetworkInterchangableApp.swift */,
 				1791505D2A99F9E400457E5F /* ContentView.swift */,
 				1791505F2A99F9E700457E5F /* Assets.xcassets */,
@@ -65,6 +77,38 @@
 				179150622A99F9E700457E5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		179150692A9DCA4B00457E5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1791506A2A9DCA7000457E5F /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1791506C2A9DCA8C00457E5F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1791506D2A9DCA9B00457E5F /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1791506F2A9DCAB500457E5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				179150702A9DD18C00457E5F /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		179150722A9DD26D00457E5F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				179150732A9DD27B00457E5F /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +182,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1791505E2A99F9E400457E5F /* ContentView.swift in Sources */,
+				1791506B2A9DCA7000457E5F /* UserModel.swift in Sources */,
+				1791506E2A9DCA9B00457E5F /* WebService.swift in Sources */,
+				179150712A9DD18C00457E5F /* UserViewModel.swift in Sources */,
 				1791505C2A99F9E400457E5F /* NetworkInterchangableApp.swift in Sources */,
+				179150742A9DD27B00457E5F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
